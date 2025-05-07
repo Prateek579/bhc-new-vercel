@@ -176,17 +176,19 @@ export default function ContactUs() {
     </div>
 
     {/* Images section */}
-    <div className="relative overflow-hidden bg-white  h-[150px] md:h-[150px] pb-4">
-      <div className="bg-[#0E7280]/40 flex flex-row items-center overflow-scroll scrollbar-hide justify-between w-full h-full opacity-[0.7]">
-        <Image src="/icons/hm-5-img1.1.jpg" alt='about image1' width={200} height={200} className='h-full w-auto' />
-        <Image src="/icons/hm-5-img1.3.jpg" alt='about image1' width={200} height={200} className='h-full w-auto' />
-        <Image src="/icons/hm-5-img1.4.jpg" alt='about image1' width={200} height={200} className='h-full w-auto' />
-        <Image src="/icons/hm-5-img2.1.jpg" alt='about image1' width={200} height={200} className='h-full w-auto' />
-        <Image src="/icons/hm-5-img4.3.jpg" alt='about image1' width={200} height={200} className='h-full w-auto' />
-        <Image src="/icons/hm-5-img4.1.jpg" alt='about image2' width={200} height={200} className='h-full w-auto' />
-        <Image src="/icons/hm-5-img4.5.jpg" alt='about image3' width={200} height={200} className='h-full w-auto' />
-        <Image src="/icons/hm-5-img6.3.jpg" alt='about image4' width={200} height={200} className='h-full w-auto' />
-        <Image src="/icons/hm-5-img4.4.jpg" alt='about image5' width={200} height={200} className='h-full w-auto' />
+    <div className="relative overflow-hidden bg-gray-100   pb-4 py-12 sm:py-16 lg:py-20">
+      <div className="h-[150px] md:h-[150px]">
+        <div className="bg-[#0E7280]/40 flex flex-row items-center overflow-scroll scrollbar-hide justify-between w-full h-full opacity-[0.7]">
+          <Image src="/icons/hm-5-img1.1.jpg" alt='about image1' width={200} height={200} className='h-full w-auto' />
+          <Image src="/icons/hm-5-img1.3.jpg" alt='about image1' width={200} height={200} className='h-full w-auto' />
+          <Image src="/icons/hm-5-img1.4.jpg" alt='about image1' width={200} height={200} className='h-full w-auto' />
+          <Image src="/icons/hm-5-img2.1.jpg" alt='about image1' width={200} height={200} className='h-full w-auto' />
+          <Image src="/icons/hm-5-img4.3.jpg" alt='about image1' width={200} height={200} className='h-full w-auto' />
+          <Image src="/icons/hm-5-img4.1.jpg" alt='about image2' width={200} height={200} className='h-full w-auto' />
+          <Image src="/icons/hm-5-img4.5.jpg" alt='about image3' width={200} height={200} className='h-full w-auto' />
+          <Image src="/icons/hm-5-img6.3.jpg" alt='about image4' width={200} height={200} className='h-full w-auto' />
+          <Image src="/icons/hm-5-img4.4.jpg" alt='about image5' width={200} height={200} className='h-full w-auto' />
+        </div>
       </div>
     </div>
   </>

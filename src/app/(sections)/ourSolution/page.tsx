@@ -30,17 +30,18 @@ export default function OurSolution() {
       </Link>
     </div>
     <div className="relative overflow-hidden min-h-[50vh] sm:min-h-[60vh] md:min-h-[70vh]">
-      <div
-        className="absolute inset-0 -z-10"
-        style={{
-          backgroundImage: 'url("/icons/abt-1-img.png")',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
+      <video
+        className="absolute inset-0 -z-10 w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="/icons/sol-vdo.webm" type="video/mp4" />
+      </video>
       <div className="max-w-screen-2xl mx-auto px-3 sm:px-6 md:px-8 lg:px-22 py-10 sm:py-16 md:py-24 lg:py-32">
         <div className="max-w-[70%]">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] font-[700] font-['Montserrat'] leading-[120%] sm:leading-[110%] md:leading-[100%] tracking-[0%] align-middle text-[#1A1A1A] mb-4 sm:mb-6">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] font-[700] font-['Montserrat'] leading-[120%] sm:leading-[110%] md:leading-[100%] tracking-[0%] align-middle text-white mb-4 sm:mb-6">
             Complete Care Access
             <br />
             From Symptoms to Specialist, Seamlessly.

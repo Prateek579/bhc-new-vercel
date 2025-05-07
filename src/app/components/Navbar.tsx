@@ -47,7 +47,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/">
-              <Image src="/nav-img.png" alt="BHC Logo" width={100} height={40} />
+              <Image src="/icons/nav-img.png" alt="BHC Logo" width={100} height={40} />
             </Link>
           </div>
 

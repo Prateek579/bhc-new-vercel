@@ -56,7 +56,7 @@ const LandingPage = () => {
   // Using a single static background image
   const [pageNum, setPageNum] = React.useState(1);
 
-  const backgroundImage = '/hm-1-img.jpg';
+  const backgroundImage = '/icons/hm-1-img.jpg';
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -178,7 +178,7 @@ const LandingPage = () => {
 
       {/* SECOND PAGE  */}
       {pageNum === 2 &&
-        <div className="relative min-h-screen bg-gradient-to-r from-[#003366] to-[#18A093] overflow-hidden py-8 sm:py-12 md:py-16 lg:py-20">
+        <div className="relative min-h-screen bg-gradient-to-l from-[#003366] to-[#18A093] overflow-hidden py-8 sm:py-12 md:py-16 lg:py-20">
           <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 md:px-8 lg:px-22">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
               {/* Left Content */}
@@ -295,7 +295,7 @@ const LandingPage = () => {
                 Building The World&apos;s Largest
                 <span> Decentralized Healthcare Network</span>
               </h1>
-              <p className="text-sm md:text-base lg:text-lg opacity-90 font-['Montserrat'] font-normal leading-relaxed text-[#FFA500]">
+              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-['Montserrat'] leading-tight text-[#FFA500]">
                 By 2036, aspiring to transform Indian healthcare
               </p>
               <div className="mt-8">
@@ -573,7 +573,7 @@ const LandingPage = () => {
             <span className="text-[#003366]">Products</span>
           </h2>
           <div className="parallax-section section1 border-b-3 border-white h-[90vh]" >
-            <div className="content w-full h-full  overflow-scroll ">
+            <div className="content w-full h-full  overflow-scroll scrollbar-hide">
               <div className="content-prd h-full flex items-center justify-center ">
                 <div className="text-5xl font-['Montserrat'] xs:text-sm sm:text-base lg:text-lg text-white">Smart Healthcare Machine</div>
               </div>
@@ -593,7 +593,7 @@ const LandingPage = () => {
           </div>
 
           <div className="parallax-section section2 border-b-3  border-white h-[90vh]">
-            <div className="content w-full h-full  overflow-scroll ">
+            <div className="content w-full h-full  overflow-scroll scrollbar-hide">
               <div className="content-prd h-full flex items-center justify-center ">
                 <div className="text-5xl font-['Montserrat'] xs:text-sm sm:text-base lg:text-lg text-gray-700">Nurse App</div>
               </div>
@@ -612,7 +612,7 @@ const LandingPage = () => {
             </div>
           </div>
           <div className="parallax-section section3 border-b-3  border-white h-[90vh]">
-            <div className="content w-full h-full  overflow-scroll ">
+            <div className="content w-full h-full  overflow-scroll scrollbar-hide ">
               <div className="content-prd h-full flex items-center justify-center ">
                 <div className="text-5xl font-['Montserrat'] xs:text-sm sm:text-base lg:text-lg text-gray-700">Doctor App</div>
               </div>

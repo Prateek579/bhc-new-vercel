@@ -314,7 +314,7 @@ export default function Animacare() {
                     />
                   </div>
                   <div className='md:h-[35%]'>
-                    <h3 className="text-xl font-['Montserrat'] text-center text-[#333333]">Tele-Diagnostic & Tele-Consultation Centre</h3>
+                    <h3 className="text-xl font-['Montserrat'] text-center text-[#333333]">Tele-Diagnostic & Tele-Consultation Center</h3>
                   </div>
                 </div>
                 <div className="mt-4 flex flex-col items-center">
