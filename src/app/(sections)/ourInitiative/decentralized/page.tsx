@@ -210,7 +210,7 @@ export default function Decentralized() {
         <div className="journeySection">
           <div className="container">
             <h2 className="sectionTitle">Our Journey to 2036</h2>
-            <div className="timeline h-[350vh] flex flex-col justify-between">
+            <div className="timeline h-[400vh] flex flex-col justify-between">
               {/* Phase 1 */}
               <div className="phase group w-[50%]">
                 <div className="border-2  border-[#0E7280] rounded-lg p-1 md:p-4 group-hover:bg-[#0E7280] transition-all duration-300">
@@ -265,6 +265,23 @@ export default function Decentralized() {
                 </div>
               </div>
               {/* Phase 4 */}
+              <div className="phase group w-[50%]">
+                <div className="border-2 border-[#0E7280] rounded-lg p-1   md:p-4 group-hover:bg-[#0E7280] transition-all duration-300">
+                  <div className="phaseHeader border-b-2 border-[#0E7280] group-hover:border-white">
+                    <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%] align-middle capitalize font-['Montserrat] text-[#0E7280] group-hover:text-white mb-2">Phase 4: Full Decentralization (2032–2036)</h3>
+                  </div>
+                  <div className="phaseContent y-2 md:py-4">
+                    <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%] align-middle capitalize font-['Montserrat'] text-gray-700 group-hover:text-white">Community Ownership</h3>
+                    <ul className="text-sm font-['Montserrat'] sm:text-base md:text-lg text-gray-600 group-hover:text-white md:spacing-y-3 pt-4 list-none space-y-2">
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Deploy 10,000+ Centers</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Establish Animacare Public Trust</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Transition Operations to Communities</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">&quot;Healthcare Belongs to You&quot; Campaign</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* Phase 5 */}
               <div className="timeline-center flex flex-row items-center justify-center z-10">
                 <div className="w-[90%] md:w-[50%] bg-[#0E7280] rounded-lg p-4 text-center">
                   <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%]  align-middle capitalize font-['Montserrat] text-white mb-2">Mission Accomplished: 2036</h3>

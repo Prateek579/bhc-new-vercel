@@ -315,9 +315,13 @@ const LandingPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             {/* Text Content */}
             <div className="space-y-4">
-              <h2 className="text-[32px] sm:text-[38px] md:text-[38px] font-[700] font-['Montserrat'] mb-3 sm:mb-4">
+              <h2 className="hidden sm:block text-[32px] sm:text-[38px] md:text-[38px] font-[700] font-['Montserrat'] mb-3 sm:mb-4">
                 <span className="text-[#18A093]">Reimagining Access to</span>{' '}
                 <br />
+                <span className="text-[#003366]">Quality Healthcare</span>
+              </h2>
+              <h2 className="block sm:hidden text-[32px] sm:text-[38px] md:text-[38px] font-[700] font-['Montserrat'] mb-3 sm:mb-4">
+                <span className="text-[#18A093]">Reimagining Access to</span>{' '}
                 <span className="text-[#003366]">Quality Healthcare</span>
               </h2>
               <p className="text-[#555555] text-[16px] sm:text-[20px] md:text-[22px] font-['Montserrat'] font-medium">
@@ -479,7 +483,7 @@ const LandingPage = () => {
             >
               {/* Card 1 */}
               <SwiperSlide>
-                <div className="relative md:h-[500px] group overflow-hidden rounded-lg w-full max-w-[600px] aspect-[4/3]">
+                <div className="relative h-[350px] md:h-[500px] group overflow-hidden rounded-lg w-full max-w-[600px] aspect-[4/3]">
                   <Image
                     src="/icons/hm-4-img1.1.jpeg"
                     alt="Sewer Lines"
@@ -498,7 +502,7 @@ const LandingPage = () => {
 
               {/* Card 2 */}
               <SwiperSlide>
-                <div className="relative md:h-[500px] group overflow-hidden rounded-lg w-full max-w-[600px] aspect-[4/3]">
+                <div className="relative h-[350px] md:h-[500px] group overflow-hidden rounded-lg w-full max-w-[600px] aspect-[4/3]">
                   <Image
                     src="/icons/hm-4-img4.jpg"
                     alt="Stormwater Drains"
@@ -518,7 +522,7 @@ const LandingPage = () => {
 
               {/* Card 3 */}
               <SwiperSlide>
-                <div className="relative md:h-[500px] group overflow-hidden rounded-lg w-full max-w-[600px] aspect-[4/3]">
+                <div className="relative h-[350px] md:h-[500px] group overflow-hidden rounded-lg w-full max-w-[600px] aspect-[4/3]">
                   <Image
                     src="/icons/hm-4-img2.1.webp"
                     alt="Sewer Lines"
@@ -537,7 +541,7 @@ const LandingPage = () => {
 
               {/* Card 4 */}
               <SwiperSlide>
-                <div className="relative md:h-[500px] group overflow-hidden rounded-lg w-full max-w-[600px] aspect-[4/3]">
+                <div className="relative h-[350px] md:h-[500px] group overflow-hidden rounded-lg w-full max-w-[600px] aspect-[4/3]">
                   <Image
                     src="/icons/hm-4-img2.1.jpg"
                     alt="Stormwater Drains"
@@ -1205,44 +1209,44 @@ const LandingPage = () => {
             <span className="text-[#18A093]">We</span>{' '}
             <span className="text-[#003366]">Work with</span>
           </h2>
-          <div className="w-full grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-2 xs:gap-3 sm:gap-4 md:gap-5">
-            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[180px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
+          <div className="w-full grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-1 xs:gap-3 sm:gap-4 md:gap-5">
+            <div className="bg-gray-100 p-1  xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[100px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
               <div className="flex-1 flex items-center justify-center ">
                 <Image src="/icons/hm-10-img11.png" alt="CSR & Impact Funds" width={70} height={70} className='w-10 xs:w-12 sm:w-14 md:w-16 lg:w-20 h-auto object-contain' />
               </div>
               <h3 className="text-xs font-['Montserrat'] xs:text-sm sm:text-base lg:text-lg text-gray-800 text-center h-[40%]">CSR & Impact Funds</h3>
             </div>
-            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[180px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
+            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[100px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
               <div className="flex-1 flex items-center justify-center">
                 <Image src="/icons/hm-10-img12.png" alt="Doctors & Healthcare Professionals" width={70} height={70} className='w-10 xs:w-12 sm:w-14 md:w-16 lg:w-20 h-auto object-contain' />
               </div>
               <h3 className="text-xs font-['Montserrat'] xs:text-sm sm:text-base lg:text-lg text-gray-800 text-center h-[40%]">Healthcare Professionals</h3>
             </div>
-            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[180px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
+            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[100px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
               <div className="flex-1 flex items-center justify-center h-[50%]">
                 <Image src="/icons/hm-10-img13.png" alt="Hospitals & Clinics" width={70} height={60} className='w-10 xs:w-12 sm:w-14 md:w-16 lg:w-18 h-auto object-contain' />
               </div>
               <h3 className="text-xs font-['Montserrat'] xs:text-sm sm:text-base lg:text-lg text-gray-800 text-center h-[40%]">Hospitals & Clinics</h3>
             </div>
-            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[180px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
+            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[100px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
               <div className="flex-1 flex items-center justify-center h-[50%]">
                 <Image src="/icons/hm-10-img14.png" alt="IT Park & Corporate" width={70} height={70} className='w-10 xs:w-12 sm:w-14 md:w-16 lg:w-20 h-auto object-contain' />
               </div>
               <h3 className="text-xs font-['Montserrat'] xs:text-sm sm:text-base lg:text-lg text-gray-800 text-center h-[40%] ">IT Park & Corporate</h3>
             </div>
-            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[180px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
+            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[100px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
               <div className="flex-1 flex items-center justify-center h-[50%]">
                 <Image src="/icons/hm-10-img15.png" alt="Policy Makers & Local Bodies" width={70} height={70} className='w-10 xs:w-12 sm:w-14 md:w-16 lg:w-20 h-auto object-contain' />
               </div>
               <h3 className="text-xs font-['Montserrat'] xs:text-sm sm:text-base lg:text-lg text-gray-800 text-center h-[40%] ">Policy Makers</h3>
             </div>
-            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[180px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
+            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[100px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
               <div className="flex-1 flex items-center justify-center h-[50%]">
                 <Image src="/icons/hm-10-img16.png" alt="Residential Complex & Gated Communities" width={70} height={70} className='w-10 xs:w-12 sm:w-14 md:w-16 lg:w-20 h-auto object-contain' />
               </div>
               <h3 className="text-xs font-['Montserrat'] xs:text-sm sm:text-base lg:text-lg text-gray-800 text-center h-[40%] ">Residential Complex</h3>
             </div>
-            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[180px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
+            <div className="bg-gray-100 p-3 xs:p-4 sm:p-5 lg:p-6 flex flex-col items-center justify-center h-[100px] xs:h-[200px] sm:h-[220px] md:h-[250px] space-y-2 xs:space-y-3 sm:space-y-4">
               <div className="flex-1 flex items-center justify-center h-[50%]">
                 <Image src="/icons/hm-10-img17.png" alt="Rural Health Centers & Panchayats" width={70} height={70} className='w-10 xs:w-12 sm:w-14 md:w-16 lg:w-20 h-auto object-contain' />
               </div>
