@@ -17,7 +17,7 @@ export default function News() {
                         backgroundPosition: 'center',
                     }}
                 />
-                <div className="max-w-screen-2xl mx-auto px-3 sm:px-6 md:px-8 lg:px-22 py-10 sm:py-16 md:py-24 lg:py-32">
+                <div className="max-w-screen-2xl min-h-[90vh] flex flex-col items-start justify-center mx-auto px-3 sm:px-6 md:px-8 lg:px-22 py-10 sm:py-16 md:py-24 lg:py-32">
                     <div className="max-w-3xl">
                         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] font-[700] font-['Montserrat'] leading-[120%] sm:leading-[110%] md:leading-[100%] tracking-[0%] align-middle text-[#1A1A1A] mb-4 sm:mb-6">
                             Latest Highlights &

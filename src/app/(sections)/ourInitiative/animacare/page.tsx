@@ -112,7 +112,7 @@ export default function Animacare() {
   };
 
   return (<>
-    <div className="relative overflow-hidden min-h-[60vh]">
+    <div className="relative overflow-hidden min-h-[90vh]">
       <div
         className="absolute inset-0 -z-10"
         style={{
@@ -121,15 +121,12 @@ export default function Animacare() {
           backgroundPosition: 'center',
         }}
       />
-      <div className="max-w-screen-2xl mx-auto px-3 sm:px-6 md:px-8 lg:px-22 py-10 sm:py-16 md:py-24 lg:py-32">
+      <div className="max-w-screen-2xl min-h-[90vh] mx-auto px-3 sm:px-6 md:px-8 lg:px-22 flex flex-col items-start justify-center">
         <div className="max-w-3xl">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[45px] font-[700] font-['Montserrat'] leading-[120%] sm:leading-[110%] md:leading-[100%] tracking-[0%] align-middle text-[#1A1A1A] mb-4 sm:mb-6">
             <span className="text-[#17A7AB]">Mobile Clinics & Fast Diagnosis</span>{' '}
             <span className="text-[#003366]">Reaching Rural India Daily.</span>
           </h1>
-          {/* <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
-            Revolutionizing Rural Healthcare with Tele-Diagnostic Solutions
-          </p> */}
         </div>
       </div>
 
@@ -140,7 +137,7 @@ export default function Animacare() {
           alt="India Map"
           width={600}
           height={600}
-          className="opacity-80 w-full h-auto max-h-[616px] object-contain mx-auto"
+          className="opacity-80 w-auto h-full object-contain mx-auto"
         />
       </div>
 
