@@ -77,6 +77,10 @@ export default function OurProducts() {
         }}
       />
       <div className="space-y-6 relative z-10 ">
+        <h2 className="text-[25px] sm:text-[38px] md:text-[38px] font-[700] font-['Montserrat'] mb-4 sm:mb-8 text-center">
+          <span className="text-white">Smart Healthcare Machine - </span>{' '}
+          <span className="text-white">Tele-Diagnostic Capability</span>
+        </h2>
         {/* Vitals Section */}
         <div className=" rounded-lg border-1 border-gray-300 p-4  transition-all duration-300">
           <h3 className="text-white text-xl font-semibold mb-4">Vitals Parameters</h3>
@@ -182,6 +186,44 @@ export default function OurProducts() {
             </div>
             <div className="flex items-center gap-2 text-white font-['Montserrat']">
               <span>Pregnancy hCG Syphilis</span>
+            </div>
+          </div>
+        </div>
+        <div className="rounded-lg border-1 border-white p-4  transition-all duration-300">
+          <h3 className="text-white text-xl font-semibold mb-4">12 Lead ECG</h3>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="flex items-center gap-2 text-white font-['Montserrat']">
+              <Image src="/icons/hm-6-lead.png" alt="HbA1c" width={20} height={20} />
+              <span>12 Lead</span>
+            </div>
+            <div className="flex items-center gap-2 text-white font-['Montserrat']">
+              <Image src="/icons/hm-6-rr.png" alt="HbA1c" width={20} height={20} />
+              <span>Resperation Rate</span>
+            </div>
+          </div>
+        </div>
+        <div className="rounded-lg border-1 border-white p-4  transition-all duration-300">
+          <h3 className="text-white text-xl font-semibold mb-4">Tele-Diagnostic Tools</h3>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="flex items-center gap-2 text-white font-['Montserrat']">
+              <Image src="/icons/hm-6-sp.png" alt="HbA1c" width={20} height={20} />
+              <span>Spirometer</span>
+            </div>
+            <div className="flex items-center gap-2 text-white font-['Montserrat']">
+              <Image src="/icons/hm-6-os.png" alt="HbA1c" width={20} height={20} />
+              <span>Otoscope</span>
+            </div>
+            <div className="flex items-center gap-2 text-white font-['Montserrat']">
+              <Image src="/icons/hm-6-is.png" alt="HbA1c" width={20} height={20} />
+              <span>Irish Scope</span>
+            </div>
+            <div className="flex items-center gap-2 text-white font-['Montserrat']">
+              <Image src="/icons/hm-6-der.png" alt="HbA1c" width={20} height={20} />
+              <span>Dermatoscope</span>
+            </div>
+            <div className="flex items-center gap-2 text-white font-['Montserrat']">
+              <Image src="/icons/hm-6-pu.png" alt="HbA1c" width={20} height={20} />
+              <span>Portable - Ultrasound</span>
             </div>
           </div>
         </div>

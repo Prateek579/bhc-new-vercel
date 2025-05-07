@@ -149,7 +149,7 @@ export default function Decentralized() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1 - Breaking Geographical Barriers */}
-          <div className="bg-white p-8 rounded-lg border-1 border-gray-300 flex flex-col items-center justify-center min-h-[180px] md:min-h-[220px] group hover:bg-gradient-to-r hover:from-[#18A093] hover:to-[#003366] transition-all duration-300">
+          <div className="bg-white p-8 rounded-lg border-1 border-gray-300 flex flex-col items-center justify-center min-h-[180px] md:min-h-[220px] group hover:bg-[#0E7280] transition-all duration-300">
             <div className="mb-6 flex items-center justify-center w-full">
               <Image
                 src="/icons/abt-3-lgo4.png"
@@ -166,7 +166,7 @@ export default function Decentralized() {
           </div>
 
           {/* Card 2 - Technology-Driven Access */}
-          <div className="bg-white p-8 rounded-lg border-1 border-gray-300 flex flex-col items-center justify-center min-h-[180px] md:min-h-[220px] group hover:bg-gradient-to-r hover:from-[#18A093] hover:to-[#003366] transition-all duration-300">
+          <div className="bg-white p-8 rounded-lg border-1 border-gray-300 flex flex-col items-center justify-center min-h-[180px] md:min-h-[220px] group hover:bg-[#0E7280] transition-all duration-300">
             <div className="mb-6 flex items-center justify-center w-full">
               <Image
                 src="/icons/abt-3-lgo2.png"
@@ -182,7 +182,7 @@ export default function Decentralized() {
           </div>
 
           {/* Card 3 - Community-Centered Care */}
-          <div className="bg-white p-8 rounded-lg border-1 border-gray-300 flex flex-col items-center justify-center min-h-[180px] md:min-h-[220px] group hover:bg-gradient-to-r hover:from-[#18A093] hover:to-[#003366] transition-all duration-300">
+          <div className="bg-white p-8 rounded-lg border-1 border-gray-300 flex flex-col items-center justify-center min-h-[180px] md:min-h-[220px] group hover:bg-[#0E7280] transition-all duration-300">
             <div className="mb-6 flex items-center justify-center w-full">
               <Image
                 src="/icons/abt-3-lgo3.png"
@@ -207,77 +207,71 @@ export default function Decentralized() {
           <span className="text-[#003366]">Decentralized Healthcare Network</span>
         </h2>
 
-        <div className="grid  grid-cols-1 md:grid-cols-3 gap-8">
-          <div
-            className="bg-white p-8 rounded-lg border-1 border-gray-300 card-hover group hover:bg-[#0E7280] transition-all duration-300 cursor-pointer sm:min-h-[100px] md:min-h-[170px] flex items-center justify-center ] "
-          >
-            <div className="flex flex-row items-center justify-start group-hover:hidden touch-hover:hidden h-full">
-              <Image
-                src="/icons/dc-3-lgo1.png"
-                alt="Phase 1 Icon"
-                width={48}
-                height={48}
-                className=" sm:w-14 md:w-18 mr-4"
-              />
-              <div className='w-full'>
-                <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%]  align-middle capitalize font-['Montserrat] text-[#18A093] group-hover:text-white touch-hover:text-white mb-2">Phase 1</h3>
-                <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%] align-middle capitalize font-['Montserrat'] text-gray-700">Foundation & Proof of Concept
-                  (2024–2026)</h3>
-              </div>
-            </div>
-            <ul className="text-sm sm:text-base md:text-lg text-gray-600 hidden group-hover:block touch-hover:block group-hover:text-white touch-hover:text-white">
-              <li>Identifying key regions for implementation.</li>
-              <li>Partnering with NGOs, government bodies, and healthcare startups.</li>
-            </ul>
-          </div>
-
-
-          <div
-            className="bg-white p-8 rounded-lg border-1 border-gray-300 card-hover group hover:bg-[#0E7280] transition-all duration-300 cursor-pointer sm:min-h-[100px] md:min-h-[170px] flex items-center justify-center "
-          >
-            <div className="flex flex-row items-center group-hover:hidden touch-hover:hidden h-full">
-              <Image
-                src="/icons/dc-3-lgo2.png"
-                alt="Phase 2 Icon"
-                width={52}
-                height={58}
-                className="mr-4 sm:w-14 md:w-22"
-              />
-              <div className='w-full'>
-                <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%]  align-middle capitalize font-['Montserrat] text-[#18A093] group-hover:text-white touch-hover:text-white mb-2">Phase 2</h3>
-                <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%] align-middle capitalize font-['Montserrat'] text-gray-700">Scale & Strengthen
-                  (2026–2029)</h3>
-              </div>
-            </div>
-            <ul className="text-sm sm:text-base md:text-lg text-gray-600 hidden group-hover:block touch-hover:block group-hover:text-white touch-hover:text-white">
-              <li>Identifying key regions for implementation.</li>
-              <li>Partnering with NGOs, government bodies, and healthcare startups.</li>
-            </ul>
-          </div>
-
-          <div
-            className="bg-white p-8 rounded-lg border-1 border-gray-300 card-hover group hover:bg-[#0E7280] transition-all duration-300 cursor-pointer sm:min-h-[100px] md:min-h-[170px] flex items-center justify-center "
-
-          >
-            <div className="flex flex-row items-center group-hover:hidden touch-hover:hidden h-full">
-              <Image
-                src="/icons/dc-3-lgo3.png"
-                alt="Phase 3 Icon"
-                width={48}
-                height={48}
-                className="mr-4 sm:w-16 md:w-20"
-              />
-              <div className='w-full'>
-                <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%]  align-middle capitalize font-['Montserrat] text-[#18A093] group-hover:text-white touch-hover:text-white mb-2">Phase 3</h3>
-                <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%] align-middle capitalize font-['Montserrat'] text-gray-700">Deep Reach & Public Systems Integration
-                  (2029–2032)</h3>
+        <div className="journeySection">
+          <div className="container">
+            <h2 className="sectionTitle">Our Journey to 2036</h2>
+            <div className="timeline h-[350vh] flex flex-col justify-between">
+              {/* Phase 1 */}
+              <div className="phase group w-[50%]">
+                <div className="border-2  border-[#0E7280] rounded-lg p-1 md:p-4 group-hover:bg-[#0E7280] transition-all duration-300">
+                  <div className="phaseHeader border-b-2 border-[#0E7280] group-hover:border-white">
+                    <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%] align-middle capitalize font-['Montserrat] text-[#0E7280] group-hover:text-white mb-2">Phase 1: Foundation (2024 - 2026)</h3>
+                  </div>
+                  <div className="phaseContent y-2 md:py-4">
+                    <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%] align-middle capitalize font-['Montserrat'] text-gray-700 group-hover:text-white">Building the Foundation</h3>
+                    <ul className="text-sm font-['Montserrat'] sm:text-base md:text-lg text-gray-600 group-hover:text-white md:spacing-y-3 pt-4 list-none space-y-2">
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Deploy 100 TDM Centers</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">500+ Free Health Camps</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Launch Phase-1 Software Ecosystem</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">10+ Strategic Hospital Partnerships</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
 
+              {/* Phase 2 */}
+              <div className="phase group w-[50%]">
+                <div className="border-2 border-[#0E7280] rounded-lg p-1 md:p-4 group-hover:bg-[#0E7280] transition-all duration-300">
+                  <div className="phaseHeader border-b-2 border-[#0E7280] group-hover:border-white">
+                    <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%] align-middle capitalize font-['Montserrat] text-[#0E7280] group-hover:text-white mb-2">Phase 2: Scale & Strengthen (2026–2029)</h3>
+                  </div>
+                  <div className="phaseContent y-2 md:py-4">
+                    <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%] align-middle capitalize font-['Montserrat'] text-gray-700 group-hover:text-white">Expanding Our Reach</h3>
+                    <ul className="text-sm font-['Montserrat'] sm:text-base md:text-lg text-gray-600 group-hover:text-white md:spacing-y-3 pt-4 list-none space-y-2">
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Expand to 1,000+ Centers</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Train 2,000+ Local Nurses</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Multi-language Platform Integration</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Community Health Dashboards</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Phase 3 */}
+              <div className="phase group w-[50%]">
+                <div className="border-2 border-[#0E7280] rounded-lg p-1   md:p-4 group-hover:bg-[#0E7280] transition-all duration-300">
+                  <div className="phaseHeader border-b-2 border-[#0E7280] group-hover:border-white">
+                    <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%] align-middle capitalize font-['Montserrat] text-[#0E7280] group-hover:text-white mb-2">Phase 3: Deep Reach & Integration (2029–2032)</h3>
+                  </div>
+                  <div className="phaseContent y-2 md:py-4">
+                    <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%] align-middle capitalize font-['Montserrat'] text-gray-700 group-hover:text-white">Deepening Our Impact</h3>
+                    <ul className="text-sm font-['Montserrat'] sm:text-base md:text-lg text-gray-600 group-hover:text-white md:spacing-y-3 pt-4 list-none space-y-2">
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">5,000+ Centers in underserved areas</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Public Health System Integration</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Offline-First Mode</li>
+                      <li className="flex items-start before:content-[''] before:w-2 before:h-2 before:mt-[0.4em] before:rounded-full before:bg-[#0E7280] before:mr-2 before:flex-shrink-0">Health Literacy Programs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* Phase 4 */}
+              <div className="timeline-center flex flex-row items-center justify-center z-10">
+                <div className="w-[90%] md:w-[50%] bg-[#0E7280] rounded-lg p-4 text-center">
+                  <h3 className="text-[18px] sm:text-[22px] md:text-[24px] font-[600] leading-[1.2] sm:leading-[24px] tracking-[0%]  align-middle capitalize font-['Montserrat] text-white mb-2">Mission Accomplished: 2036</h3>
+                  <p className="text-sm font-['Montserrat'] sm:text-base md:text-lg text-white">Healthcare access for 600,000+ villages across India</p>
+                </div>
+              </div>
             </div>
-            <ul className="text-sm sm:text-base md:text-lg text-gray-600 hidden group-hover:block touch-hover:block group-hover:text-white touch-hover:text-white">
-              <li>Identifying key regions for implementation.</li>
-              <li>Partnering with NGOs, government bodies, and healthcare startups.</li>
-            </ul>
           </div>
         </div>
       </div>
